@@ -43,7 +43,7 @@ function generatePassword(characterAmount, includeUppercase,
         let charCodes = LOWERCASE_CHAR_CODES
        if (includeUppercase) charCodes = charCodes.concat(UPPERCASE_CHAR_CODES)
        if (includeNumbers) charCodes = charCodes.concat(NUMBERS_CHAR_CODES)
-       if (includeSymbols) charCodes = charCodes.concat(SYMBOLS_CHAR_CODES)
+       if (includeSymbols) charCodes = charCodes.concat(SYMBOL_CHAR_CODES)
 
         const passwordCharacters = []
        for (let i = 0; i < characterAmount; i++) {
